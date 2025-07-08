@@ -917,7 +917,8 @@ export class Engine extends IEngine {
     };
 
     const proposal = {
-      requiredNamespaces: {},
+      // requiredNamespaces: {},
+      requiredNamespaces: namespaces,
       optionalNamespaces: namespaces,
       relays: [{ protocol: "irn" }],
       pairingTopic,
